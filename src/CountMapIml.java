@@ -1,7 +1,5 @@
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.function.BiFunction;
 
 public class CountMapIml <T> implements ICountMap<T>{
     private Map <T, Integer> hashMap = new HashMap <> ();

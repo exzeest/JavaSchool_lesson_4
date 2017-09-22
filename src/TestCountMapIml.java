@@ -33,6 +33,7 @@ public class TestCountMapIml {
         System.out.println (map.getCount(5)); // 4
         System.out.println (map.getCount(6)); // 2
         System.out.println (map.getCount(10)); // 4
+        System.out.println (map.remove (2));
 
         Map <Integer, Integer> tM = new HashMap <> ();
         Map <Integer, Integer> tM1 = map.toMap ();
